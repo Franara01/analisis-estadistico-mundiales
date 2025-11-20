@@ -1,7 +1,9 @@
 # Análisis Estadístico de Goles en Mundiales FIFA (2002-2022)
 
 Autor: Francisco Ara
+
 Contacto: ffranciscoara@gmail.com | https://www.linkedin.com/in/francisco-ara/
+
 Repositorio: [https://github.com/Franara01/analisis-estadistico-mundiales/edit/main/README.md]
 
 Resumen
