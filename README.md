@@ -46,7 +46,11 @@ Notas técnicas
 --------------
 - Tests: `pingouin.mwu` y `scipy.stats.ttest_ind` (Welch).
 - Nivel de significancia usado: alpha = 0.1.
+- Se documentan supuestos y limitaciones en la sección "Discusión" del notebook.
 
+Licencia
+--------
+MIT
 
 
 
@@ -96,11 +100,29 @@ Key Results
 Both statistical tests returned **p-values < 0.10**, which means:
 
 > We reject the null hypothesis.  
-> According to this
+> According to this dataset, women's World Cup matches have a statistically higher average number of goals per game.
 
-- Se documentan supuestos y limitaciones en la sección "Discusión" del notebook.
+This conclusion is consistent across parametric and non-parametric approaches.
 
-Licencia
---------
-MIT
+How to Reproduce the Analysis
+-----------------------------
+1. Clone this repository  
+2. Place the CSV files inside the `data/` folder  
+3. Create a virtual environment
+4. Install dependencies
+5. Open the notebook
+6. Alternatively, refer to the ready-to-read PDF (`notebook - Final Version.pdf`)
+
+Technical Notes
+---------------
+- Statistical tests used:
+- `pingouin.mwu()` for Mann–Whitney U  
+- `scipy.stats.ttest_ind()` (Welch’s t-test with alternative='greater')  
+- Data visualizations produced with `matplotlib`  
+- Datasets processed using `pandas`  
+- No assumptions of normality were required for the non-parametric test
+
+License
+-------
+MIT License
 
