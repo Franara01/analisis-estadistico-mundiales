@@ -14,7 +14,6 @@ Contenido
 - notebook.ipynb        -> Notebook reproducible con todo el análisis
 - notebook - Final Version.pdf -> Versión PDF lista para presentación. :contentReference[oaicite:0]{index=0}
 - data/                 -> CSVs crudos (men_results.csv, women_results.csv)
-- requirements.txt      -> Dependencias (pandas, matplotlib, scipy, pingouin, etc.)
 - README.md             -> Este archivo
 
 Qué hace el notebook
